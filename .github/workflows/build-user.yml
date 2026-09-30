@@ -13,11 +13,12 @@ on:
         - keyball61
         - keyball46
         - one47
+        - keyballplus
       keymap:
         description: 'Keymap'
         required: true
         type: string
-        default: 'default'
+        default: 'via'
 
 jobs:
 

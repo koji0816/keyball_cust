@@ -33,6 +33,8 @@ const uint16_t AML_TIMEOUT_MIN = 100;
 const uint16_t AML_TIMEOUT_MAX = 1000;
 const uint16_t AML_TIMEOUT_QU  = 50;   // Quantization Unit
 
+const uint16_t AML_ACTIVATE_THRESHOLD = 10;
+
 enum { BL = '\xB0' }; // Blank indicator character (must be a constant expression: used in `keyball` initializer below)
 #ifdef OLED_ENABLE
 static const char LFSTR_ON[] PROGMEM = "\xB2\xB3";
